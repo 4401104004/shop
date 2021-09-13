@@ -1,0 +1,239 @@
+.details{
+    background-color: #F5F5F5;
+
+}
+
+.app__details{
+    padding-top: 15px;
+    display: block;
+    
+}
+.details__content-tittle{
+    font-size: 1.4rem;
+    padding: 15px 0;
+    color: rgba(0, 0, 0, 0.8);
+}
+.details__content-tittle-home a{
+    color: var(--primary-color);
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+.details__content{
+    display: flex;
+    background-color: var(--white-color);
+    padding: 12px;
+    border-radius: 4PX;
+    
+}
+
+
+.details-img{
+    max-width: 500px;
+    max-height: 500px;
+    border: 1px solid var(--boder-color);
+    cursor: pointer;
+}
+
+
+
+.details__list-app{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    max-width: 500px;
+    overflow-x:auto ;
+
+}
+.details__list-app-item{
+    flex-shrink: 0;
+    margin: 0 10px;
+}
+
+
+.details__list-app-img:hover{
+    border: 2px solid var(--primary-color);
+    
+}
+.details__list-app-img{
+    width: 80px;
+    height: 90px;
+    cursor: pointer;
+    
+}
+.details__content-text{
+    flex: 1;
+    margin-left: 30px;
+}
+
+.details__text-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.detail__like{
+    flex: 1;
+    
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    padding: 4px;
+}
+.detail__like-name{
+    font-size: 1.4rem;
+    
+}
+.details__text-list{
+    font-size: 2rem;
+    font-weight: 400;
+    
+    color: rgba(0, 0, 0, 0.8);
+    margin-left: 8px;
+    line-height: 1.5;
+    
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.details__text-star{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    cursor: pointer;
+
+}
+.details__text-star-item{
+    font-size: 1.4rem;
+    padding: 0 20px;
+    border-right: 1px solid var(--boder-color);
+    
+}
+.details__text-star-item:last-child{
+    border-right: 0;
+}
+.details__text-star-link{
+    color: var(--primary-color);
+}
+.details__text-number{
+    color: var(--text-color);
+    
+}
+.details__size{
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.details__text-text{
+    color: #767676;
+}
+.details__text-price{
+    padding: 15px 20px;
+    background-color: #fafafa;
+    cursor: text;
+}
+.details__text-price-old{
+    font-size: 1.4rem;
+    color: #666;
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+.details__text-price-current{
+    font-size: 2.8rem;
+    font-weight: 500;
+    color: var(--primary-color);
+    margin-right: 10px;
+}
+.details__text-price-saleoff{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    font-size: 1.4rem;
+    padding: 2px 4px;
+}
+
+.details__text-table-name{
+    color: #757575;
+    font-size: 1.4rem;
+}
+.details__text-table-td1{
+    width: 100px;
+}
+.details__text-table-inf{
+    font-size: 2rem;
+    line-height: 1.5;
+    font-style: italic;
+}
+.details__text-table-inf-inf{
+    color: #757575;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+.details__text-icon{
+    color:#757575;
+}
+.details__text-table-btn{
+    text-decoration: none;
+    padding: 3px 8px;
+    border: 1px solid var(--boder-color);
+    text-align: center;
+}
+.details__text-input{
+    width: 40px;
+    height: 25px;
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 8px;
+    color: var(--text-color);
+    border: 1px solid var(--boder-color);
+}
+.details__text-btn{
+    margin-top: 20px;
+    
+}
+.details__text-btn-add{  
+    color: var(--primary-color);
+    border:1px solid var(--primary-color);
+}
+.details__text-btn-icon{
+    margin-right: 5px;
+}
+.details__text-btn-cart{
+    margin: 0 12px;
+}
+.details__text-btn-add:hover{
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.details__hover{
+    background-color: #fb6445;
+}
+/* ............ */
+.inf-detail{
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+    background-color: var(--white-color);
+    cursor: text;
+}
+.inf-detail-list{
+    display: block;
+    background-color: #fafafa;
+    padding: 15px 20px;
+}
+.inf-detail-item{
+    text-align: left;
+    margin-left: 40px;
+    font-size: 1.5rem;
+    line-height: 1.5;
+
+}
+.img-inf-detail{
+    cursor: pointer;
+    max-height: 500px;
+    margin-bottom: 20px;
+}
+.inf-detail-related{
+    display: block;
+    background-color: #ec763f;
+    padding: 15px 20px;
+    border:1px solid #76a8e9;
+}
